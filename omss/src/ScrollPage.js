@@ -23,24 +23,36 @@ const ScrollPage = () => {
             <img src={logo} alt="logo" className="Logo" />
           </div>
         </div>
-        <div className="Main-Text">{slogan[0]}</div>
-        <div className="Sub-Text">{subtext[0]}</div>
+        <div className="Box1">
+          <div className="Main-Text">{slogan[0]}</div>
+          <div className="Sub-Text">{subtext[0]}</div>
+          <div className="Btn">
+            <button type="button" className="More-Btn">
+              {more[0]}
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="section">
+        <div className="Header">
+          <div className="Top">
+            <img src={logo} alt="logo" className="Logo" />
+          </div>
+        </div>
+        <div className="Main-Text">{slogan[1]}</div>
+        <div className="Sub-Text">{subtext[1]}</div>
         <div className="Btn">
           <button type="button" className="More-Btn">
-            {more[0]}
+            {more[1]}
           </button>
         </div>
       </div>
       <div className="section">
-        <div className="Main-Text">{slogan[0]}</div>
-        <div className="Sub-Text">{subtext[0]}</div>
-        <div className="Btn">
-          <button type="button" className="More-Btn">
-            {more[0]}
-          </button>
+        <div className="Header">
+          <div className="Top">
+            <img src={logo} alt="logo" className="Logo" />
+          </div>
         </div>
-      </div>
-      <div className="section">
         <div className="Main-Text">{slogan[0]}</div>
         <div className="Sub-Text">{subtext[0]}</div>
         <div className="Btn">
