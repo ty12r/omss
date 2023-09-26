@@ -3,6 +3,10 @@ import P1 from "./portfolio_1.png";
 import "./portfolio.css";
 
 function Portfolio() {
+  const openLinkInNewTab = () => {
+    window.open("https://www.instagram.com/onemicroseconds", "_blank"); // '_blank' 속성으로 새 창에서 열기
+  };
+
   // 데이터 선언
   let [Title, TitleChange] = useState([
     "SLA 레진 프린팅",
@@ -49,6 +53,11 @@ function Portfolio() {
           <div className="Title">{Title[3]}</div>
           <div className="subTitle">{subTitle[3]}</div>
         </div>
+      </div>
+      <div className="Btn2">
+        <button type="button" className="Link-Btn" onClick={openLinkInNewTab}>
+          더 둘러보기
+        </button>
       </div>
     </div>
   );

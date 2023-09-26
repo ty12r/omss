@@ -91,3 +91,36 @@ img {
   text-align: left;
   margin-left: 0.2vh;
 }
+
+.Btn2 {
+  height: max-content;
+  max-height: 100%;
+  width: 100;
+}
+
+.Link-Btn {
+  background: linear-gradient(45deg, #2d3135, #2d3135);
+  height: 50px;
+  width: 160px;
+  border-radius: 25px;
+  color: #ededed;
+  font-family: "LINESeedKR-Bd";
+  font-size: 100%;
+  margin-top: 40px;
+  box-shadow: 0px 0px 10px #b4b4b4;
+  padding: 1em;
+  border: 0;
+  cursor: pointer;
+  padding-top: 14px;
+  transition: background 0.3s ease, transform 0.3s ease; /* 호버 시 애니메이션 설정 */
+}
+
+.Link-Btn:hover {
+  background: linear-gradient(
+    45deg,
+    #ff33cc,
+    #ff6600
+  ); /* 호버 시 배경색 변경 */
+  box-shadow: 0px 0px 10px #8134af;
+  transform: scale(1.1); /* 호버 시 크기 확대 애니메이션 추가 */
+}
