@@ -36,39 +36,6 @@ body {
   height: 100px;
 }
 
-.Main-Text {
-  font-family: "LINESeedKR-Bd";
-  font-size: 50px;
-  color: #2d3135;
-  margin-top: 30%;
-  text-shadow: 0px 0px 10px #b4b4b4;
-}
-
-.Sub-Text {
-  font-family: "LINESeedKR-Rg";
-  font-size: 18px;
-  color: #2d3135;
-  margin-top: 40px;
-  white-space: pre-line;
-  opacity: 60%;
-}
-
-.More-Btn {
-  background-color: #2d3135;
-  height: 50px;
-  width: 160px;
-  border-radius: 25px;
-  color: #ededed;
-  font-family: "LINESeedKR-Bd";
-  font-size: 100%;
-  margin-top: 40px;
-  box-shadow: 0px 0px 10px #b4b4b4;
-  padding: 1em;
-  border: 0;
-  cursor: pointer;
-  padding-top: 14px;
-}
-
 .Logo {
   height: 22px;
   margin-top: 39px;
