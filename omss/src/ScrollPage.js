@@ -5,6 +5,7 @@ import logo from "./omss.svg";
 import Portfolio from "./portfolio";
 import Page1Section1 from "./Page1Section1";
 import Page1Section2 from "./Page1Section2";
+import Page1Section2_2 from "./Page1Section2_2";
 import Page1Section3 from "./Page1Section3";
 import Page1Section4 from "./Page1Section4";
 
@@ -18,6 +19,9 @@ const ScrollPage = () => {
       </div>
       <div className="section">
         <Page1Section2 />
+      </div>
+      <div className="section">
+        <Page1Section2_2 />
       </div>
       <div className="section">
         <Page1Section3 />

@@ -1,0 +1,126 @@
+/* src/components/ScrollPage.css */
+.scroll-page {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0; /* 바깥 여백 제거 */
+  padding: 0; /* 내부 여백 제거 */
+}
+
+@font-face {
+  font-family: "LINESeedKR-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/wizfile/font/LINESeedKR-Rg.eot");
+  src: url("https://cdn.jsdelivr.net/gh/wizfile/font/LINESeedKR-Rg.woff")
+    format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #ededed;
+  flex-direction: column;
+  overflow: hidden; /*스크롤바 비활성화*/
+  scrollbar-width: none; /* Firefox 브라우저에 대한 스크롤바 비활성화*/
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Chrome, Safari 등의 브라우저에 대한 스크롤바 비활성화*/
+}
+
+.Top {
+  background-color: #ededed;
+  height: 100px;
+  display: flex;
+  flex: 1;
+  position: sticky;
+}
+
+.Box1 {
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8vh;
+  margin-right: 8vh;
+}
+
+.Main-Text {
+  font-family: "LINESeedKR-Bd";
+  font-size: 50px;
+  color: #2d3135;
+  text-shadow: 0px 0px 10px #b4b4b4;
+  white-space: pre-line;
+  flex: 5;
+  margin-top: 40vh;
+  max-height: 100%;
+}
+
+.Sub-Text {
+  font-family: "LINESeedKR-Rg";
+  font-size: 18px;
+  color: #2d3135;
+  margin-top: 40px;
+  white-space: pre-line;
+  opacity: 60%;
+  display: flex;
+  flex: 2;
+  max-height: 100%;
+}
+
+.More-Btn {
+  background-color: #2d3135;
+  height: 50px;
+  width: 160px;
+  border-radius: 25px;
+  color: #ededed;
+  font-family: "LINESeedKR-Bd";
+  font-size: 100%;
+  margin-top: 40px;
+  box-shadow: 0px 0px 10px #b4b4b4;
+  padding: 1em;
+  border: 0;
+  cursor: pointer;
+  padding-top: 14px;
+}
+
+.Btn {
+  height: max-content;
+  margin-bottom: 50vh;
+  max-height: 100%;
+}
+
+.Logo {
+  height: 22px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

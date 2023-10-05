@@ -26,7 +26,9 @@ function Portfolio() {
     "지금은 현실이된, 누군가의 상상들.",
   ]);
 
-  let [subText, subTextChage] = useState(["이제 당신 차례에요. 서둘러요."]);
+  let [subText, subTextChage] = useState([
+    "콘셉트 구체화부터, 제품 설계, 물성 시뮬레이션, 시제품 생산까지.",
+  ]);
 
   return (
     <div className="Portfolio">

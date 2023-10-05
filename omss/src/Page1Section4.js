@@ -26,7 +26,37 @@ function Page1Section4() {
           </div>
           <div className="Box2">
             <div className="TitleFooter">{titleFooter[0]}</div>
-            <div className="subTitleFooter">{subTitleFooter[0]}</div>
+            <div className="subTitleFooter">
+              <p>
+                [Seoul] 서울특별시 송파구 중대로 207, 2층 201호{" "}
+                <span style={{ fontWeight: 700 }}>원마이크로세컨즈 (OMSS)</span>
+                <br />
+                [Sejong] 세종특별자치시 조치원읍 모과나무길 34, 2동{" "}
+                <span style={{ fontWeight: 700 }}>
+                  원마이크로세컨즈 엔지니어링 (OMSS ENGR.)
+                </span>
+              </p>
+              <p>
+                대표번호 : 02-6959-7506
+                <br />
+                고객문의 : cs@omss.kr
+                <br />
+                사업자등록번호 : 281-86-02969
+                <br />
+                통신판매업등록번호 : 0000-서울송파-0000
+              </p>
+              <a href="https://www.omss.kr" target="_blank">
+                omss.kr
+              </a>{" "}
+              |{" "}
+              <a href="https://store.omss.kr" target="_blank">
+                store.omss.kr
+              </a>{" "}
+              |{" "}
+              <a href="https://www.omss.engineering" target="_blank">
+                omss.engineering
+              </a>
+            </div>
           </div>
         </div>
       }
